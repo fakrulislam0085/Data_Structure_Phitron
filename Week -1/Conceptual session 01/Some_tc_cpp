@@ -1,0 +1,53 @@
+//O(n)
+for(int i=0; i<n; i++) 
+{
+    if(i==1)
+    {
+        for(int j=0; j<n; j++)
+        {
+            //statement
+        }
+    }
+}
+
+here,   i=value;    j= operation number: 
+        i = 0;      j=0
+        i = 1;      j=n
+        i = 2;      j=0
+        i = 3;      j=0;
+        i = n;      j=0;
+        --------------------
+        that means, TC = O(n)
+
+
+
+//O(n)
+for(int i=1; i*2<=n; i++)
+{
+    //statement
+}
+
+Here,  i*2 <=n
+->     i <= n/2
+so, it is also an O(n) complexity problem
+
+
+
+//log(n)
+for(int i=1; i*i<=n; i=i*2)  //log(n)
+{
+    //statement
+}
+here, (n=64)
+when    i=1;    operation = 1;
+        i=2;    operation = 2;
+        i=4;    operation = 3;
+        i=8;    operation = 4;
+        ----------------------
+
+operations_num_1 = sqrt(n) = sqrt(64) = 8;
+operations_num_2 = log(n)  = log2(64) = 6;
+
+As, operations_num_2 is in lead position, so
+the time complexity of this problem will be = log(n)
+        
