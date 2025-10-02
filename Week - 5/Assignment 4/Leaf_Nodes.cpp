@@ -13,6 +13,7 @@ class TreeNode
         this->right = NULL;
     }
 };
+
 TreeNode* input_tree()
 {
     int val;
@@ -89,10 +90,12 @@ void printLeafNodeinDescendingOrder(TreeNode* root)
     }
     cout << endl;
 }
+
 int main()
 {
     TreeNode* root = input_tree();
     printLeafNodeinDescendingOrder(root);
 
     return 0;
+
 }
