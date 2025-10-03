@@ -26,6 +26,7 @@ public:
         else return false;
     }
 };
+
 int main()
 {
     myStack st;
@@ -57,7 +58,6 @@ int main()
         cout << st.top() << endl;
         st.pop();
     }
-
 
     return 0;
 }
