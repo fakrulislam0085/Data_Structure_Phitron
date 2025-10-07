@@ -51,6 +51,5 @@ int main()
 
     //call for print
     PreOrder(root);
-
     return 0;
 }
