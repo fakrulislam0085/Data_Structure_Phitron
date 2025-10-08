@@ -25,5 +25,6 @@ int main()
         cout << newSt.top() << " ";
         newSt.pop();
     }
+    
     return 0;
 }
