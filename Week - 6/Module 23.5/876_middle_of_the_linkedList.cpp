@@ -84,6 +84,5 @@ int main()
         int pos = cnt /2;
         printLinkedList(head, pos);
     }
-
     return 0;
 }
