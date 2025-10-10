@@ -22,5 +22,6 @@ int main()
             if(i != n/i) cout << n/i << endl;
         }
     }
+    
     return 0;
 }
